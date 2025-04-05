@@ -96,7 +96,10 @@
                     <p>The video that we will embed below is included in the video folder of this project. Your zyBook explains how these tags work in detail, but today we'll write some minimum code to get the video to display on our page. Below, we'll add the video from the video folder in the project. Include the attribute that will display controls for the video, and set the width.</p>
                     
                     <!-- TO DO: Add the video from the files below using HTML5 -->
-
+                    <video controls width="425">
+                        <source src="video/video.mp4" type="video/mp4">
+                        Your browser doesn't support this video format
+                    </video>
                     <a href="https://www.pexels.com/video/laptop-use-as-controller-for-a-modern-sound-system-3134599/" class="credit">Video by Caleb Oquendo</a>
                 </section>
 
@@ -104,7 +107,7 @@
                     <h3><span>&#10033;&nbsp;</span> Adding Video From YouTube</h3>
                     <p>Adding a video from YouTube is as simple as copying and pasting some code. YouTube videos include embed code under the share menu for each video. Once it is open, you can choose to set some options or just copy the code and paste it into your HTML. YouTube uses a tag called an <code>iframe</code> to hold their videos. These can render more than just videos, though, including an entire web page.</p>
                     <!-- This video can be found here: https://www.youtube.com/watch?v=k9DZp16uNQk&list=RDk9DZp16uNQk&start_radio=1 I did remove the autoplay and frameborder attributes from the given code -->
-                    <iframe width="425" height="240" src="https://www.youtube.com/embed/k9DZp16uNQk" title="YouTube video player" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe width="425" height="240" src="https://www.youtube.com/embed/k9DZp16uNQk?si=05d7abHQPm0UZprH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </section>
             </section>
 
